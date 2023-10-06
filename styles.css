@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+.blog-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* Four equal-width columns */
+            gap: 20px; /* Gap between columns */
+        }
+
+        /* CSS for each column */
+        .blog-column {
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+
+        /* CSS for article list */
+        .article-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        /* CSS for article items */
+        .article-item {
+            margin-bottom: 10px;
+        }
+
+        /* CSS for column titles */
+        .column-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
